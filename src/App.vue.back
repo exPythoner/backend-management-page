@@ -1,0 +1,63 @@
+<script setup></script>
+
+<template>
+  <div id="app">
+  <!-- 最外层容器 -->
+    <el-container class="ctner">
+    <!-- header -->
+      <el-header class="header">Header</el-header>
+
+      <el-container>
+      <!-- left -->
+        <el-aside class="left">Aside</el-aside>
+        <el-main class="main">
+        Main
+        123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>
+        123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>
+        123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>
+        123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>
+        123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>
+        123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>
+        123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>
+        123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>
+        123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>
+        123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>
+        123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>
+        123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>
+        123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>
+        123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>
+        123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>
+        123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>
+        123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>
+        123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>
+        123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>
+        123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>
+        123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>
+        123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>
+        123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>
+        123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>
+        123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>
+        123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>
+        123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>
+        123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>
+        123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>
+        123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>123 <br>
+        </el-main>
+      </el-container>
+
+    </el-container>
+  </div>
+</template>
+
+<style lang="less" scoped>
+.header {
+  background-color: #ff9854;
+}
+.left {
+  background-color: #f40;
+}
+.main {
+  background-color: lightgreen;
+  height: calc(100vh - 60px);
+}
+</style>
